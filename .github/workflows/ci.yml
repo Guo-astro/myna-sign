@@ -50,8 +50,9 @@ jobs:
       - name: Install frontend dependencies
         run: npm ci --prefix ui
 
-      - name: Build Preact frontend
-        run: npm --prefix ui run build
+      # Also checks that the npm Tauri packages match the Rust crates before a tag reaches Release.
+      - name: Build desktop application
+        run: npm exec --prefix ui -- tauri build --no-bundle
 
       - name: Check formatting
         run: cargo fmt --all --check

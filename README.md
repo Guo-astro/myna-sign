@@ -75,7 +75,7 @@ assets/                  組み込み証明書とフォント
 
 | | |
 |---|---|
-| Rust | 1.88 以降 |
+| Rust | 1.90 以降 |
 | Node.js | 20 以降 |
 | PC/SC | Linux: `pcscd` + `libpcsclite1` (ビルド時 `libpcsclite-dev`) / macOS・Windows: OS 内蔵 |
 | WebView | Linux: `libwebkit2gtk-4.1-dev`, `libgtk-3-dev`, `libsoup-3.0-dev` / macOS: 内蔵 / Windows: WebView2 |

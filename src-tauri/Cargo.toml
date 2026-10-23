@@ -18,13 +18,13 @@ crate-type = ["staticlib", "cdylib", "rlib"]
 custom-protocol = ["tauri/custom-protocol"]
 
 [build-dependencies]
-tauri-build = { version = "2", features = [] }
+tauri-build = { version = "~2.7.0", features = [] }
 
 [dependencies]
 myna-sign = { path = "..", default-features = false, features = ["tsa-http"] }
 myna-card = { version = "3.3", default-features = false, features = ["pcsc", "verify"] }
-tauri = { version = "2", features = [] }
-tauri-plugin-dialog = "2"
+tauri = { version = "~2.12.0", features = [] }
+tauri-plugin-dialog = "~2.8.0"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 zeroize = { version = "1.9", features = ["zeroize_derive"] }
