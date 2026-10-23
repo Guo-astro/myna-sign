@@ -2983,7 +2983,7 @@ dependencies = [
 
 [[package]]
 name = "myna-sign"
-version = "2.0.2"
+version = "2.0.3"
 dependencies = [
  "ab_glyph",
  "anyhow",
@@ -3019,7 +3019,7 @@ dependencies = [
 
 [[package]]
 name = "myna-sign-app"
-version = "2.0.2"
+version = "2.0.3"
 dependencies = [
  "hex",
  "myna-card",
